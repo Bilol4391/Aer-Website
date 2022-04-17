@@ -1,0 +1,194 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.main-wrapper {
+  display: flex;
+}
+.container{
+  width: 93.6%;
+  height: 100vh;
+  display: flex;
+  background-image: url(./Images/Без\ имени-3.jpg);
+  background-position-y: center;
+  background-repeat: no-repeat;
+  position: relative;
+ 
+}
+.navbar {
+  display: flex;
+  padding-top: 30px;
+  padding-left: 50px;
+ 
+}
+ul {
+  display: flex; list-style: none;
+  margin-left: 620px;
+  margin-top: 10px;
+}
+
+ol {
+  color: white; list-style: none;
+  display: flex;
+  margin: -7px;
+  font-weight: bold;
+  padding-top: 15px;
+  transition: .5s;
+}
+ol li a:hover{
+  color: rgb(202, 173, 9);
+}
+ol li a {
+  font-size: 22px;
+}
+
+.color {
+  border-bottom: 2px solid rgb(172, 148, 17);
+  padding-bottom: 1rem;
+  color: rgb(177, 155, 30);
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar img {
+  width: 30px;
+}
+li a {
+  margin: 15px 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  transition: .5s;
+}
+li a:hover{
+  color: rgb(202, 173, 9);
+}
+
+.side-bar{
+  width: 6.4%;
+  height: 100vh;
+  box-shadow: 0 0  1px 2px #2f2f2f ;
+  background-color: #161616;
+  z-index: 1;
+}
+
+.inside-text p {
+    transform: rotate(180deg);
+    color: white;
+    margin: 25px 0;
+    transition: .5s;
+    writing-mode: vertical-lr;
+    cursor: pointer;;
+}
+.inside-text {
+  height: 80%;
+  align-items: end;
+  justify-content: center;
+  margin-top: 400px;
+  margin-left: 25px;
+  color: white;
+  font-weight: bold;
+}
+.inside-text p:hover{
+  color: rgb(202, 173, 9);
+}
+
+
+.text-first-one {
+  font-size: 20px;
+  color: white;
+}
+
+.box-wrapper{
+  height: 60%;
+  margin: auto;
+  width: 87%;
+  align-items: center;
+  display: flex;
+  margin-left: -1180px;
+  margin-top: 90px;
+}
+
+.box-wrapper .first-box{
+  width: 55%;
+  line-height: 28px;
+}
+.box-wrapper .second-box{
+width: 45%;
+padding-top: 50px;
+}
+.border{
+  width: 250px;
+  height: 1px;
+  background-color: white;
+  margin: 10px 0 18px 0;
+}
+.text-one{
+  color: white;
+  font-weight: bold !important;
+}
+.border div{
+   padding-right: 1rem;
+  width: 70%;
+  background-color: goldenrod;
+  height: 1px;
+
+}
+.first-box h4{
+ color: white;
+}
+.first-box h6{
+  color: rgb(146, 146, 146);
+}
+.text-one{
+  color: white;
+  font-size: 55px;
+  line-height: 60px;
+}
+.text-border-solid{
+  color: rgb(139, 137, 137);
+  font-size: 15px;
+  width: 85%;
+  margin-top: 20px;
+  line-height: 28px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.border-bottom{
+  text-decoration: underline;
+}
+
+.footer-box-wrapper {
+  position: absolute;
+  top: 68.7%;
+  display:   flex;
+  font-size: 13px;
+  color: #D1CECE;
+  backdrop-filter: blur(20px);
+  letter-spacing: 1px;
+  line-height: 25px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  height: 206px;
+}
+
+.uchinchi-box img {
+  width: 205px;
+  margin-top: -49px;
+  margin-left: 80px;
+  /* height: 141px; */
+}
+
+.ikkinchi-box {
+  margin-left: 80px;
+  margin-bottom: 10px;
+}
+.turtinchi-box {
+  margin-left: 80px;
+}
+
